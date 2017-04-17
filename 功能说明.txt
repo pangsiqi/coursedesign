@@ -1,0 +1,14 @@
+以及如何实现的
+
+1、双向数据功能
+	评论区“请叫我大帅柯”处实现双向数据绑定。
+	实现方法：在需要双向数据绑定的表单中都加上ng-model="content"
+2、导航条效果
+	导航条处实现手风琴菜单显示更多。
+	实现方法：在（derective.js）中自定义directive   showmore，并建立“显示更多”超链接；并把需要隐藏起来显示的html页面文字放在<showmore>内，
+3、数据排序效果
+	粉丝排序显示，按名字降序排序。
+	实现方法：在控制器（controller.js）中添加粉丝的信息，在使用ng-repeat循环输出粉丝消息并用过滤器按“name”实现降序排序显示。
+4、动画效果
+	页面顶部“隐藏导航栏”点击复选框可以隐藏导航条文字。
+	实现方法:导入文件<script src="angular-animate.js"></script>，在（filter.js）文件中添加var app = angular.module('myApp', ['ngAnimate']);然后在页面顶部添加“隐藏导航栏”复选框<input type="checkbox" ng-model="myCheck">&nbsp;<a href="#"><b>隐藏导航栏</b></a>

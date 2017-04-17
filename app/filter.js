@@ -1,1 +1,1 @@
-// Ìí¼Ó¹ıÂËÆ÷
+var app = angular.module(['ngAnimate'], 'myApp');
