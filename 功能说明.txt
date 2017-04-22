@@ -11,4 +11,4 @@
 	实现方法：在控制器（controller.js）中添加粉丝的信息，在使用ng-repeat循环输出粉丝消息并用过滤器按“name”实现降序排序显示。
 4、动画效果
 	页面顶部“隐藏导航栏”点击复选框可以隐藏导航条文字。
-	实现方法:导入文件<script src="angular-animate.js"></script>，在（filter.js）文件中添加var app = angular.module('myApp', ['ngAnimate']);然后在页面顶部添加“隐藏导航栏”复选框<input type="checkbox" ng-model="myCheck">&nbsp;<a href="#"><b>隐藏导航栏</b></a>
+	实现方法:导入文件<script src="angular-animate.js"></script>，在（animator.js）文件中添加var app = angular.module('myApp', ['ngAnimate']);然后在页面顶部添加“隐藏导航栏”复选框<input type="checkbox" ng-model="myCheck">&nbsp;<a href="#"><b>隐藏导航栏</b></a>
